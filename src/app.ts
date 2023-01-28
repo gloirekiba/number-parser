@@ -17,7 +17,7 @@ numberInput.addEventListener("input", () => {
 
   try {
     const parsedNumber = parseNumber(DICTIONARY, words);
-    result.style.color = "black";
+    result.style.color = "inherit";
     result.innerText = parsedNumber.toString();
   } catch (err: any) {
     result.style.color = "red";
@@ -46,15 +46,3 @@ function parseNumber(dict: num[], words: string[]): number {
 
   return total + temp;
 }
-
-/* 
-
-console.log(parseInt("one")); //1
-console.log(parseInt("twenty")); //20
-console.log(parseInt("two hundred forty-six")); //246
-console.log(
-  parseInt("seven hundred eighty-three thousand nine hundred nineteen")
-);
-
-console.log(parseInt("one hundred and twenty three"));
-*/
