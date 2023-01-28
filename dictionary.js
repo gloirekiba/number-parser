@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = [
+export default [
     {
         name: "one",
         value: 1,
@@ -138,22 +136,42 @@ exports.default = [
     },
     {
         name: "hundred",
-        value: 100,
+        value: 10 ** 2,
         math: "mul",
     },
     {
         name: "thousand",
-        value: 1000,
+        value: 10 ** 3,
         math: "mul",
     },
     {
         name: "million",
-        value: 1000000,
+        value: 10 ** 6,
         math: "mul",
     },
     {
         name: "billion",
-        value: 1000000000,
+        value: 10 ** 9,
+        math: "mul",
+    },
+    {
+        name: "trillion",
+        value: 10 ** 12,
+        math: "mul",
+    },
+    {
+        name: "quadrillion",
+        value: 10 ** 15,
+        math: "mul",
+    },
+    {
+        name: "quintillion",
+        value: 10 ** 18,
+        math: "mul",
+    },
+    {
+        name: "sextillion",
+        value: 10 ** 21,
         math: "mul",
     },
 ];
