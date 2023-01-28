@@ -2,7 +2,7 @@
   "name": "n-parser",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.html",
   "scripts": {
     "start": "live-server dist",
     "dev": "npm run start & nodemon --watch src --ext ts,html,css --exec \"npm run build\"",
